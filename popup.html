@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loading Page Reader</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>📚 Loading Page Reader</h1>
+    
+    <div class="current-book" id="currentBook">
+      <h3>Current Book</h3>
+      <div id="bookInfo">
+        <p class="no-book">No book selected</p>
+      </div>
+    </div>
+
+    <div class="previous-books" id="previousBooks" style="display: none;">
+      <h3>Previous Books</h3>
+      <div id="previousBooksList"></div>
+    </div>
+
+    <div class="search-section">
+      <h3>Search for a New Book</h3>
+      <input type="text" id="searchInput" placeholder="Search for a book...">
+      <button id="searchBtn">Search</button>
+      
+      <div id="searchResults" class="search-results"></div>
+    </div>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>

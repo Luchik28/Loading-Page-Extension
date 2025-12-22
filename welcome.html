@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Loading Page Reader</title>
+  <link rel="stylesheet" href="welcome.css">
+</head>
+<body>
+  <div class="container">
+    <h1>📚 Welcome to Loading Page Reader</h1>
+    <p class="subtitle">Choose a book to start reading while pages load</p>
+    
+    <div class="suggestions">
+      <h2>Popular Classics</h2>
+      <div class="suggestion-buttons">
+        <button class="suggestion-btn" data-title="Pride and Prejudice">Pride and Prejudice</button>
+        <button class="suggestion-btn" data-title="Frankenstein">Frankenstein</button>
+        <button class="suggestion-btn" data-title="Alice's Adventures in Wonderland">Alice in Wonderland</button>
+        <button class="suggestion-btn" data-title="The Adventures of Sherlock Holmes">Sherlock Holmes</button>
+        <button class="suggestion-btn" data-title="Moby Dick">Moby Dick</button>
+        <button class="suggestion-btn" data-title="Great Expectations">Great Expectations</button>
+        <button class="suggestion-btn" data-title="Dracula">Dracula</button>
+        <button class="suggestion-btn" data-title="Jane Eyre">Jane Eyre</button>
+      </div>
+    </div>
+    
+    <div class="search-section">
+      <h2>Or Search for Another Book</h2>
+      <input type="text" id="searchInput" placeholder="Search for a book...">
+      <button id="searchBtn">Search</button>
+      
+      <div id="searchResults" class="search-results"></div>
+    </div>
+    
+    <div id="loadingMessage" class="loading-message" style="display: none;">
+      <p>Loading book...</p>
+    </div>
+  </div>
+  
+  <script src="welcome.js"></script>
+</body>
+</html>
