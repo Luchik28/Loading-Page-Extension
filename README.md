@@ -10,6 +10,9 @@ A Chrome extension that displays excerpts from books while web pages are loading
 - ⌨️ **Easy Navigation**: Press any key or click to continue after page loads
 - 🎨 **Beautiful UI**: Elegant gradient design with smooth animations
 
+## Demo
+Find the demo at https://chromewebstore.google.com/detail/loading-page-reader/gmjkopojdpdcoflnegedeilonncmfaem?authuser=0&hl=en
+
 ## Installation
 
 ### Step 1: Add Extension Icons
